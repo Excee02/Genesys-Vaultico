@@ -13,41 +13,136 @@
 </head>
 <body>
     <!-- NAVIGATION BAR -->
-    <nav>
-        <div>
-            <img src="./Assets/Images/logo.svg" alt="Logo">
+    <header>
+        <nav class="navbar">
 
-            <div>
-                <p>Home</p>
+            <a href="#"> <img src="./Assets/Images/logo.svg" alt="Logo"></a>   
 
-                <div class="dropdown">
-                    <select name="dropdown" id="Solutions">
-                        <option value="Solution">Solution</option>
+           
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+
+                    <li><select name="dropdown" id="Solutions">
+                        <option value="Solution" class="opt">Solution</option>
                         <option value="first option">first option</option>
                         <option value="second option">second option</option>
-                    </select>
+                    </select></li>
 
-                    <select name="dropdown" id="Solutions">
-                        <option value="Your work">Your work</option>
+                    <li><select name="dropdown" id="Solutions">
+                        <option value="Your work" class="opt">Your work</option>
                         <option value="first option">first option</option>
                         <option value="second option">second option</option>
-                    </select>
+                    </select></li>
 
-                    <select name="dropdown" id="Solutions">
-                        <option value="company">Company</option>
+                    <li><select name="dropdown" id="Solutions">
+                        <option value="company" class="opt">Company</option>
                         <option value="first option">first option</option>
                         <option value="second option">second option</option>
-                    </select>
+                    </select></li>
+
+                    <li><button type="submit"> 
+                        <div>
+                            <p> Request a Demo</p>
+                            <img src="./Assets/Images/icon.svg" alt="check icon">
+                        </div>
+                    </button></li>
+
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
+        </nav>
+    </header>
 
-                <button type="submit"> 
-                    <p> Request a Demo</p>
-                    <img src="./Assets/Images/icon.svg" alt="check icon">
-                 </button>
-                
-            </div>
+    <main>
+        
+        <section class="first">
+            <h2> The World's Leading Business Valuation Software</h2>
+            <p>Valutico provides the financial services industry and 
+                valuation experts with data-driven tools to perform accurate company valuations faster and more accurately than ever before.</p>
+                <div> 
+                    <button class="one">
+                        <div>
+                            <a href="#">Request a Demo</a>
+                            <img src="./Assets/Images/icon.svg" alt="check icon">
+                        </div>
+                    </button>
+
+                    <button class="three">
+                        <a href="#">Signup or login</a>
+                    </button>
+                </div>
+        </section>
+
+        <div class="image">
+            <img src="./Assets/Images/image 4.svg" alt="">
         </div>
 
-    </nav>
+        <section class="second">
+            <div class="first">
+                <h3>Trusted by Hundreds of Financial Firms in 75 Countries</h3>
+                <p>Our team of more than 50 employees is globally distributed and serves both national and international clients in over 75 countries.</p>
+            </div>
+        </section>
+        
+        <div class="grid-container">
+            <section class="grid">
+                <div> <img src="./Assets/Images/allinial.svg" alt="an image"></div>
+                <div> <img src="./Assets/Images/oaklins.svg" alt="an image"></div>
+                <div> <img src="./Assets/Images/Russell.png" alt="an image"></div>
+                <div> <img src="./Assets/Images/Crowe.png" alt="an image"></div> 
+                
+                <div> <img src="./Assets/Images/BCRH.png" alt="an image"></div>
+                <div> <img src="./Assets/Images/praxity.png" alt="an image"></div>
+                <div> <img src="./Assets/Images/Bakertilly.png" alt="an image"></div>
+                <div> <img src="./Assets/Images/Standard Chattered.png" alt="an image"></div> 
+    
+                <div> <img src="./Assets/Images/Pandea.png" alt="an image"></div>
+                <div> <img src="./Assets/Images/Global.png" alt="an image"></div>
+                <div> <img src="./Assets/Images/CDI.png" alt="an image"></div>
+                <div> <img src="./Assets/Images/Rodl.png" alt="an image"></div> 
+                
+            </section>
+        </div>
+
+        <section class="why-vaultico">
+
+            <div class="heading">
+                <h3>Why Valutico?</h3>
+                <p>An award-winning fintech providing a range of company valuation solutions, Valutico provides the financial services industry and valuation experts with data-driven tools.</p>
+            </div>
+
+            <div class="body">
+                <div>
+                    <h3>Secure</h3>
+                    <p>Private by default, creating a safe space around your projects and your data.</p>
+                </div>
+    
+                <div>
+                    <h3>Reliable</h3>
+                    <p>Created by valuation experts for valuation professionals.</p>
+                </div>
+    
+                <div>
+                    <h3>Dedicated to your success</h3>
+                    <p>24/7 support and multi-language capabilities to support your  needs.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="valuation">
+            <h3>Accurate Valuations in Minutes</h3>
+            <p>Find the company data you need in seconds, with 3TB of global financial data featuring almost 1 million transactions and over 50,000 thousand comparable peers</p>
+        </div>
+            
+        
+        
+        
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
