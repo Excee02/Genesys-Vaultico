@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Manrope", sans-serif;
 }
+body {
+    min-height: 100vh;
+}
 
 /* NAV */
 
@@ -28,8 +31,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 135px;
-    padding: 0 24px;
+    padding: 2vh 24px;
+}
+
+.navbar .nav-menu {
+    display: flex;
 }
 
 .navbar ul {
@@ -83,6 +89,7 @@ nav ul:hover {
 }
 
 .navbar button> div a {
+    display: inline-block;
      font-size: 20px;
     line-height: 27.32px;
     text-decoration: none;
@@ -381,15 +388,6 @@ nav ul:hover {
     }
 
 
-
-
-
-
-
-
-
-
-
     @media (max-width:1024px ) {
         .hamburger{
             display: block;
@@ -409,7 +407,7 @@ nav ul:hover {
     
         .nav-menu { 
             position: fixed;
-            left: -100vw;
+            left: -200vw;
             top: 70px;
             gap: 0;
             flex-direction: column;
@@ -427,15 +425,15 @@ nav ul:hover {
           left: 0vw;
         }
 
-        header {
+        /* header {
         background-color: gray;
-    }
+    } */
 } 
 
 @media (max-width:834px ) {
-    header {
+    /* header {
         background-color: gray;
-    }
+    } */
 
     .first h2 {
         font-size: 40px;
