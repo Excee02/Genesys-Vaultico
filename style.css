@@ -151,7 +151,7 @@ nav ul:hover {
 
 
 
-    /* FIRST  */
+     /* IMAGE  */
 
     .first {
         display: flex;
@@ -437,17 +437,10 @@ nav ul:hover {
         display: block;
     }
     
-
-        /* header {
-        background-color: gray;
-    } */
 } 
 
 @media (max-width:834px ) {
-    /* header {
-        background-color: gray;
-    } */
-
+    /* IMAGE  */
     .first h2 {
         font-size: 40px;
         font-weight: 800;
@@ -555,11 +548,10 @@ nav ul:hover {
         line-height: 32px;
         text-align: left;
     }
-
-
 }
 
 @media (max-width:425px ) {
+    /* IMAGES  */
     .first h2 {
         font-family: Manrope;
         font-size: 32px;
@@ -685,7 +677,6 @@ nav ul:hover {
 
     /* BUTTON  */
     .button .one {
-        padding: 12px, 8px, 12px, 8px
-        ;
+        padding: 12px, 8px, 12px, 8px;
     }
 }
