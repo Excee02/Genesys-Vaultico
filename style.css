@@ -80,12 +80,10 @@ nav ul:hover {
     border: none;
     border-radius: 16px;
     margin-right: 10px; */
-
 }
 
 .navbar button> div {
     display: inline;
-    /* justify-content: center; */
 }
 
 .navbar button> div a {
@@ -99,29 +97,33 @@ nav ul:hover {
 
 .nav-mobile { 
     position: fixed;
+    left: 0;
     top:50px;
     display: none;
     flex-direction: column;
-    background-color: white;
+    background-color: #ffffff;
     width: 100vw;
     justify-content: center;
     transition: 0.3s;
     height: 100vh;
-
+   
+    
     ul {
         position: fixed;
         top: 60px;
         gap: 0;
         display: flex;
         flex-direction: column;
-        background-color: white;
+        background-color: #ffffff;
         width: 100vw;
         justify-content: center;
         transition: 0.3s;
         margin-bottom: 30px;
+        padding-left: 0;
+        margin-left: 0;
 
         li {
-            padding-bottom: 20px;
+            padding-bottom: 10%;
 
         }
 
@@ -138,6 +140,7 @@ nav ul:hover {
     display: none;
     cursor: pointer;
     color: #000 !important;
+    transition: 1s ease-in-out;
 }
 
 #hamburger-close {
